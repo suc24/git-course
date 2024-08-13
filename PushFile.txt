@@ -1,0 +1,19 @@
+Steps To push file from local repository to remote repository
+1.first go inside folder from which we want to push file and if we want to create folder in command prompt create with mkdir <folder name>
+2.then by giving 'dir' command we can see all the files and folders inside it
+3.then create local repository if not created with 'git init' command it will create in master branch so letter we need to create main branch or here we can directly
+	give 'git init -b main'
+4.then by giving 'git status' we can see which files are ready to add in staging area from working directory
+5.add files in staging area with the command 'git add <file name>' now file is added in staging area we can check with 'git status' command
+6.but till file only added in staging area but not yet committed in .git(local repository) for committing we need to use 'git commit -m "msg"' command
+7.now file is added in .git(local repository) but by default when we use 'git init' we are on marter branch so we need to change branch because master branch is not
+	recommended
+8.so we need to use 'git branch -M main' to change branch from master to main
+9.now we need to connect with remote repository we can connect it by using two links HTTPS or SSH, if we are using SSH so first we need to create ssh key wiht the help
+	of 'ssh-keygen -o' after ssh key created we need to copy it and need to on git hub there we can add this ssh key by creating new ssh key after this client side 
+	and server side is connected by using ssh key we don't need to login every time while pushing
+8.to connect local repository to remote repository we need  to give 'git remote add origin <SSH or HTTPS link>' now local and remote repository is connected now we can
+	push files in remote repository
+9. to push we need to use 'git push -u origin main' //main is branch which we have change from master to main	 
+10. now we can see file in remote repository by refreshing the page 
+11.after any modification or added new file again we need to use 'git push -u origin main' command
