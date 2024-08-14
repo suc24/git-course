@@ -1,0 +1,12 @@
+-tag means version of our project/software
+-for every commit we can create different tag/version 
+to check list of tag we need to use 'git tag' command
+
+~To add tag follow below steps
+1.' git tag -a "version no ex. v1.0" -m "msg" ' command
+2.now tag is created we can check with the help of 'git tag' command
+3.now this tag is created in local repository we need to push this tag in remote repository because
+    we need to push tags separately it will not push with file by 'git push origin main'
+4. to push tag we need to use 'git push origin <version no ex. v1.0>'
+    now we can see this tag/version on remote repository
+5.to see the details of tag we need to use 'git show <version no ex. v1.0>' command
