@@ -22,4 +22,4 @@ Steps To push file from local repository to remote repository
 	-git commit -m "msg"
 	-git branch -M main(if we are on master branch)
 	-git remote add origin "HTTPS/SSH"
-	-git puch -u origin main 
+	-git push-u origin main 
