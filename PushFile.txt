@@ -17,3 +17,9 @@ Steps To push file from local repository to remote repository
 9. to push we need to use 'git push -u origin main' //main is branch which we have change from master to main	 
 10. now we can see file in remote repository by refreshing the page 
 11.after any modification or added new file again we need to use 'git push -u origin main' command
+12.to push folder 1st we need to give 
+	-git add <FolderName>/
+	-git commit -m "msg"
+	-git branch -M main(if we are on master branch)
+	-git remote add origin "HTTPS/SSH"
+	-git puch -u origin main 
