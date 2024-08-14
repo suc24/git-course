@@ -11,3 +11,6 @@ to check list of tag we need to use 'git tag' command
     now we can see this tag/version on remote repository
 5.to see the details of tag we need to use 'git show <version no ex. v1.0>' command
 
+-To delete tag from local repository we need to use 'git tag -d <tag name>'
+-To delete tag from remote repository we need to use 'git push origin --delete <tag name>'
+
