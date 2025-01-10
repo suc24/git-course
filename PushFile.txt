@@ -23,3 +23,5 @@ Steps To push file from local repository to remote repository
 	-git branch -M main(if we are on master branch)
 	-git remote add origin "HTTPS/SSH"
 	-git push-u origin main 
+
+14. created a demo branch and pushing these changes in demo branch
